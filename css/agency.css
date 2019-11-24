@@ -318,7 +318,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 0.5rem;
+  margin: auto;
   max-width: 50vw;
 }
 
