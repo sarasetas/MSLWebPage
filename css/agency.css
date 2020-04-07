@@ -239,16 +239,16 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item .portfolio-icon:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  /*transform: scale(1.2);*/
  }
 
- #portfolio .portfolio-item .portfolio-icon:hover .car .icon-car-crash,
- .car .icon-car {
+ #portfolio .portfolio-item .portfolio-icon:hover .icon .icon-first,
+ .icon .icon-hover {
    cursor: pointer;
    display: none;
   }
 
- #portfolio .portfolio-item .portfolio-icon:hover .car .icon-car{
+ #portfolio .portfolio-item .portfolio-icon:hover .icon .icon-hover{
    cursor: pointer;
    display: inline;
  }
