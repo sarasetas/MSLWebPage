@@ -237,9 +237,20 @@ header.masthead .intro-text .intro-heading {
 
 
 #portfolio .portfolio-item .portfolio-icon:hover {
- cursor: pointer;
- transform: scale(1.2);
-}
+  cursor: pointer;
+  transform: scale(1.2);
+ }
+
+ #portfolio .portfolio-item .portfolio-icon:hover .car .icon-car-crash,
+ .car .icon-car {
+   cursor: pointer;
+   display: none;
+  }
+
+ #portfolio .portfolio-item .portfolio-icon:hover .car .icon-car{
+   cursor: pointer;
+   display: inline;
+ }
 
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
