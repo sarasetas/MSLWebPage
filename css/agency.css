@@ -98,8 +98,8 @@ img::-moz-selection {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  /*background-color: #e9ecef !important;
+  border-color: #e9ecef !important;*/
   color: white;
 }
 
@@ -176,7 +176,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/MSLVIANABLUE.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -319,11 +319,18 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-dialog {
   margin: auto;
-  max-width: 50vw;
+  max-width: 45vw;
+  transition: max-width 1s !important;
+}
+
+.portfolio-modal .show-simulation{
+  max-width: 90vw;
+  transition: max-width 1s !important;
+
 }
 
 .portfolio-modal .modal-content {
-  padding: 100px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -374,8 +381,8 @@ header.masthead .intro-text .intro-heading {
   /* Safari and Chrome */
   z-index: 1051;
   width: 1px;
-  height: 75px;
-  margin-left: 35px;
+  height: 35px;
+  margin-left: 15px;
   /* IE 9 */
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -386,7 +393,7 @@ header.masthead .intro-text .intro-heading {
   /* Safari and Chrome */
   z-index: 1052;
   width: 1px;
-  height: 75px;
+  height: 35px;
   /* IE 9 */
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);

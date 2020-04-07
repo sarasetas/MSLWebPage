@@ -26,6 +26,21 @@
     offset: 56
   });
 
+  $('.showhide').click(function() {
+      //$("#modal").removeClass('modal-dialog');
+      if ($("#modal").hasClass('show-simulation')){
+        $("#modal").removeClass('show-simulation');
+      } else {
+         $("#modal").addClass('show-simulation');
+      }
+        var x = document.getElementById("simulationDialog");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+  });
+
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
