@@ -1,0 +1,9 @@
+.portfolio-item  {
+    transform: scale(1);  
+    transition: transform 1s;
+}
+
+
+.portfolio-item:hover {
+    transform: scale(1.2);    
+}

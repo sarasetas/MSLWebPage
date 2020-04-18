@@ -383,6 +383,7 @@ header.masthead .intro-text .intro-heading {
   height: 75px;
   cursor: pointer;
   background-color: transparent;
+  z-index: 999;
 }
 
 .portfolio-modal .close-modal:hover {
@@ -505,6 +506,7 @@ header.masthead .intro-text .intro-heading {
   border-right-width: 14px;
   border-left-width: 0;
 }
+
 
 .timeline > li:last-child {
   margin-bottom: 0;
