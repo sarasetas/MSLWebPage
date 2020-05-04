@@ -37,5 +37,7 @@ navbarCollapse();
 $(window).scroll(navbarCollapse);
 
 
+$(".copyright").html("MSL Mediadora de Seguros do Lima, Lda " + (new Date()).getFullYear() +". Todos os direitos reservados")
+
 
 
