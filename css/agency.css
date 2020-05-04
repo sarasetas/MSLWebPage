@@ -14,7 +14,7 @@ p {
 }
 
 a {
-  color: #68ace3;
+  color: #5FA9E6;
 }
 
 a:hover {
@@ -143,7 +143,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #68ace3;
 }
 
 @media (min-width: 992px) {
@@ -240,6 +240,10 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-icon:hover {
   cursor: pointer;
   /*transform: scale(1.2);*/
+ }
+
+ #portfolio .portfolio-item .portfolio-icon .icon .icon-first {
+    color: #DAAD86 !important;
  }
 
  #portfolio .portfolio-item .portfolio-icon:hover .icon .icon-first,
