@@ -1,3 +1,12 @@
+a {
+    color : white
+}
+
+a:hover {
+    color : white
+}
+
+
 .portfolio-item  {
     transform: scale(1);  
     transition: transform 1s;
@@ -15,4 +24,11 @@
     background-size:contain;
     background-position:center center;
     background-repeat: no-repeat;
+}
+
+.timeline-image a:hover {
+    width:100%;
+    display: inline-block;
+    height:100%;
+    text-decoration:none;
 }

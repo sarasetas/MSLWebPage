@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: white;
 }
 
 .text-primary {
@@ -254,7 +254,7 @@ header.masthead .intro-text .intro-heading {
 
  #portfolio .portfolio-item .portfolio-icon:hover .icon .icon-hover{
    cursor: pointer;
-   display: inline;
+   display: inline-block;
  }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -536,7 +536,7 @@ header.masthead .intro-text .intro-heading {
   }
   .timeline > li {
     min-height: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
   }
   .timeline > li .timeline-panel {
     float: left;
