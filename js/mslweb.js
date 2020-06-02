@@ -41,3 +41,47 @@ $(".copyright").html("MSL Mediadora de Seguros do Lima, Lda " + (new Date()).get
 
 
 
+$('#team ul>li').click(function(){
+
+  var div = $(this).parent() 
+  var label = $(div).parent().children("#label")
+  
+  var phone = ""
+  var email = ""
+  if(div.data("item")  == "Viana"){ 
+    phone = "9191"
+    email = "aljsfh"
+  }else if(div.data("item")  == "Caminha"){  
+    phone = "2323"
+    email = "f fdvre"
+  } else if(div.data("item")  == "PonteLima"){
+    phone = "8768"
+    email = "fgnfgn"
+  } 
+
+ 
+   
+  if ($(this).data("item") == "Phone")
+  { 
+    console.log("pontelima")
+    if (label.hasClass("show-number")){      
+      label.removeClass("show-number") 
+    }else{
+      label.addClass("show-number")
+      label.removeClass("show-email")     
+      label.html(phone)
+    } 
+  }
+  if ($(this).data("item") == "Email")
+  {
+    console.log("caminha")
+    if (label.hasClass("show-email")){       
+      label.removeClass("show-email") 
+    }else{        
+      label.addClass("show-email")
+      label.removeClass("show-number") 
+      label.html(email)
+    }    
+  }
+
+})

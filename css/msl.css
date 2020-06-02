@@ -25,9 +25,21 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-.timeline-image a:hover {
-    width:100%;
-    display: inline-block;
-    height:100%;
-    text-decoration:none;
+#label{
+    transform-box: fill-box;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateX(-90deg);
+    transition: transform 1s;
 }
+
+
+
+#team ul{
+    color: white;
+}
+
+#team .show-email,#team .show-number{
+    transform: rotateX(0deg) !important;
+} 
+ 
