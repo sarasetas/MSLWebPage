@@ -49,14 +49,14 @@ $('#team ul>li').click(function(){
   var phone = ""
   var email = ""
   if(div.data("item")  == "Viana"){ 
-    phone = "9191"
-    email = "aljsfh"
+    phone = "258 826 932"
+    email = "msl.seguros@sapo.pt"
   }else if(div.data("item")  == "Caminha"){  
-    phone = "2323"
-    email = "f fdvre"
+    phone = "258 721 442"
+    email = "msl.seguros@sapo.pt"
   } else if(div.data("item")  == "PonteLima"){
-    phone = "8768"
-    email = "fgnfgn"
+    phone = "258 943 430"
+    email = "msl.seguros@sapo.pt"
   } 
 
  
