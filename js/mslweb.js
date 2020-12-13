@@ -19,9 +19,15 @@ $(".portfolio-item").click(function(){
         });
 
     });
+
+    $("")
 });
 
-
+$('#portfolioModal').on('hidden.bs.modal', function (e) {
+  if ($("#modal").hasClass('show-simulation')){
+    $("#modal").removeClass('show-simulation');
+  } 
+})
 
 // Collapse Navbar
 var navbarCollapse = function() {

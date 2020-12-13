@@ -43,3 +43,16 @@ a:hover {
     transform: rotateX(0deg) !important;
 } 
  
+#simulationDialog{
+    padding-top: 50px;
+}
+
+.modal-content-load{
+padding-left:15px;
+padding-right: 15px;
+
+}
+
+header.masthead{
+    height: 100vh !important;
+}

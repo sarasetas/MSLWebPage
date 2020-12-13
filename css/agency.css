@@ -381,10 +381,10 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .close-modal {
   position: absolute;
-  top: 25px;
-  right: 25px;
-  width: 75px;
-  height: 75px;
+  top: 15px;
+  right: 15px;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
   background-color: transparent;
   z-index: 999;
@@ -426,7 +426,7 @@ header.masthead .intro-text .intro-heading {
 .timeline:before {
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 90px;
   left: 40px;
   width: 2px;
   margin-left: -1.5px;
