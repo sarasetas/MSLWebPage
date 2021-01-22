@@ -148,12 +148,12 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.1);
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -177,7 +177,6 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/MSLVIANABLUE.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
