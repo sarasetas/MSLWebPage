@@ -8,14 +8,14 @@ a:hover {
 
 
 .portfolio-item  {
-    transform: scale(1);  
+    transform: scale(1);
     transition: transform 1s;
 }
 
-
+/*
 .portfolio-item:hover {
-    transform: scale(1.2);    
-}
+    transform: scale(1.2);
+} */
 
 .img {
     max-width:100%;
@@ -42,8 +42,8 @@ a:hover {
 
 #team .show-email,#team .show-number{
     transform: rotateX(0deg) !important;
-} 
- 
+}
+
 #simulationDialog{
     padding-top: 50px;
 }
@@ -56,4 +56,38 @@ padding-right: 15px;
 
 header.masthead{
     height: 100vh !important;
+}
+
+.masthead .introduction{
+    position: relative;
+    top: -100%;
+    width: 100vw;
+    height: 100%;
+    color: blueviolet;
+}
+
+.icon-placer{
+    display: inline-block;
+    transition: border-color 0.2s linear;
+    /* box-shadow: 0px 0px 10px 5px #888 inset; */
+
+    border: solid 2px #CCC;
+    border-radius: 10vh;
+    height: 120px;
+    width: 120px;
+    padding: 20px;
+
+}
+.icon-placer:hover{
+    border-color: #68ace3;
+
+}
+.icon-placer .icon{
+    height: 80px;
+    width: 80px;
+}
+.icon-placer .icon i {
+    line-height: 80px;
+    font-size: 4em;
+
 }
