@@ -59,7 +59,7 @@ $('#team ul>li').click(function(){
     email = "msl.seguros@sapo.pt"
   }else if(div.data("item")  == "Caminha"){  
     phone = "258 721 442"
-    email = "msl.seguros@sapo.pt"
+    email = "msl2.Helena@hotmail.com"
   } else if(div.data("item")  == "PonteLima"){
     phone = "258 943 430"
     email = "msl.seguros@sapo.pt"
