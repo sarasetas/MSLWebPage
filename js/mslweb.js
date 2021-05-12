@@ -2,20 +2,28 @@ $(".portfolio-item").click(function(){
     console.log($(this).data("item"));
     $(".modal-content-load").load("/Portfolio/"+$(this).data("item")+".html", function(){
 
-        $('.showhide').click(function() {   
-            //$("#modal").removeClass('modal-dialog');
-            if ($("#modal").hasClass('show-simulation')){
-              $("#modal").removeClass('show-simulation');
-            } else {
-               $("#modal").addClass('show-simulation');
-            }
+        // Uncomment when theres simulations
+        // $('.showhide').click(function() {   
+        //     //$("#modal").removeClass('modal-dialog');
+        //     if ($("#modal").hasClass('show-simulation')){
+        //       $("#modal").removeClass('show-simulation');
+        //     } else {
+        //        $("#modal").addClass('show-simulation');
+        //     }
     
-            var x = document.getElementById("simulationDialog");
-            if (x.style.display === "none") {
-            x.style.display = "block";
-            } else {
-            x.style.display = "none";
-            }
+        //     var x = document.getElementById("simulationDialog");
+        //     if (x.style.display === "none") {
+        //     x.style.display = "block";
+        //     } else {
+        //     x.style.display = "none";
+        //     }
+        // });
+
+        //This is for when there isn't simulation
+        //it closes modal and goes to contact
+
+        $('.showhide').click(function() {
+          $("#portfolioModal").modal('hide');        
         });
 
     });
@@ -28,6 +36,23 @@ $('#portfolioModal').on('hidden.bs.modal', function (e) {
     $("#modal").removeClass('show-simulation');
   } 
 })
+
+
+
+$(".modelLoader").click(function(){ 
+  $(".modal-content-load").load("/"+$(this).data("item")+".html", function(){
+ 
+      $('.showhide').click(function() {
+        $("#portfolioModal").modal('hide');        
+      });
+
+  });
+
+  $("")
+});
+
+
+
 
 // Collapse Navbar
 var navbarCollapse = function() {
@@ -43,7 +68,7 @@ navbarCollapse();
 $(window).scroll(navbarCollapse);
 
 
-$(".copyright").html("MSL Mediadora de Seguros do Lima, Lda " + (new Date()).getFullYear() +". Todos os direitos reservados")
+$(".copyright").html("&copy; MSL Mediadora de Seguros do Lima, Lda " + (new Date()).getFullYear() +". Todos os direitos reservados")
 
 
 

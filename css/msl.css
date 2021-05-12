@@ -68,7 +68,7 @@ header.masthead{
 
 .icon-placer{
     display: inline-block;
-    transition: border-color 0.2s linear;
+    transition: border-color 0.15s linear;
     /* box-shadow: 0px 0px 10px 5px #888 inset; */
 
     border: solid 2px #CCC;
@@ -107,4 +107,35 @@ h2{
 }
 .section-subheading{
     font-size: 18px!important;
+}
+
+.modelLoader{
+    cursor: pointer;
+}
+
+.portfolio-modal .privacy{
+
+    text-align: left;
+
+}
+.portfolio-modal .privacy p{
+    font-size: 10pt;
+}
+
+.portfolio-modal .privacy a{
+    color: #68ace3;
+}
+
+.portfolio-modal .privacy h2,
+.portfolio-modal .privacy h3
+ {
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+}
+
+.portfolio-modal .privacy li{
+    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }

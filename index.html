@@ -36,7 +36,10 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <!--<img id="logoMSL" class="navbar-brand js-scroll-trigger" src="img/logos/msl3.png" href="#page-top">-->
-      <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color:White;">M S L </a>
+      
+      <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color:White;">
+        <img src="https://getbootstrap.com/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        <label style="line-height: 30px;"> M S L</label> </a>
       <!--<a class="navbar-brand">Mediadora de Seguros do Lima</a>-->
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -162,7 +165,8 @@
         <div class="col-lg-3 col-md-6 text-center portfolio-item" data-item="AcidentesDeTrabalho" data-toggle="modal" data-target="#portfolioModal">
           <div class="mt-5 portfolio-icon" title="Ver detalhes">
             <div class="icon-placer"><div class="icon">
-            <i class="fas fa-people-carry text-primary "></i>
+              <i class="icon-first fas fa-user-injured text-primary"></i>
+            <i class="icon-hover fas fa-people-carry text-primary "></i>
           </div></div>
             <h3 class="h4 mb-2">Acidentes de Trabalho</h3>
             <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
@@ -496,29 +500,28 @@
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" name="send" value="Send" class="btn btn-primary btn-xl text-uppercase" type="submit">> Enviar</button>
+                <button id="sendMessageButton" name="send" value="Send" class="btn btn-primary btn-xl text-uppercase" >> Enviar</button>
               </div>
             </div>
           </form>
         </div>
       </div>
     </div>
-  </section>
-
+  </section> 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer"> 
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-7">
-          <span class="copyright">&copy; MSL Mediadora de Seguros do Lima, Lda 2019. Todos os direitos reservados</span>
+          <span class="copyright">MSL Mediadora de Seguros do Lima, Lda 2019. Todos os direitos reservados</span>
         </div>       
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
+              <div  class="modelLoader" data-item="Privacidade" data-toggle="modal" data-target="#portfolioModal" >Políticas de Privacidade</div>
             </li>
             <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
+              <div  class="modelLoader" data-item="TermoDeUso" data-toggle="modal" data-target="#portfolioModal" >Termos e Condições</div>
             </li>
           </ul>
         </div>
@@ -530,7 +533,7 @@
 
   <!-- Modal -->
   <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" id="modal">
+    <div class="modal-dialog modal-dialog-centered" id="modal">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal" >
           <div class="lr">
@@ -542,8 +545,8 @@
         </div>
       </div>
     </div>
-  </div>
-  
+  </div>  
+ 
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
