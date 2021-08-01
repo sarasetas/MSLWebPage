@@ -158,3 +158,8 @@ h2{
 #service .text-muted{
     font-size: 110%;
 }
+
+header.masthead .intro-text .intro-lead-in {
+    margin-bottom: 10px;
+}
+
