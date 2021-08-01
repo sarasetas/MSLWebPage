@@ -63,7 +63,7 @@ header.masthead{
     top: -100%;
     width: 100vw;
     height: 100%;
-    color:  #68ace3;
+    color:  black;
 }
 
 .icon-placer{
@@ -71,20 +71,20 @@ header.masthead{
     transition: border-color 0.15s linear;
     /* box-shadow: 0px 0px 10px 5px #888 inset; */
 
-    border: solid 2px #CCC;
+    border: solid 5px #CCC;
     border-radius: 10vh;
-    height: 120px;
-    width: 120px;
-    padding: 20px;
+    height: 150px;
+    width: 150px;
+    padding: 32px;
 
 }
 
 #portfolio .portfolio-item .portfolio-icon .icon .icon-first{
-    color: #68ace3 !important;
+    color: #17b6fb !important;
 }
 
 .icon-placer:hover{
-    border-color: #68ace3;
+    border-color: #17b6fb;
 
 }
 .icon-placer .icon{
@@ -103,7 +103,7 @@ header.masthead{
 
 
 h2{
-    color: #68ace3
+    color: #17b6fb
 }
 .section-subheading{
     font-size: 18px!important;
@@ -148,5 +148,13 @@ h2{
 
 .img-center{
     width: 100%;
-    margin-bottom: -20vh;
+    margin-bottom: -20%;
+}
+
+.timeline .timeline-panel .timeline-body .text-muted{
+    font-size: 110%;
+}
+
+#service .text-muted{
+    font-size: 110%;
 }
