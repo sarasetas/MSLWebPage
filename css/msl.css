@@ -163,3 +163,7 @@ header.masthead .intro-text .intro-lead-in {
     margin-bottom: 10px;
 }
 
+.footer #wcb #wcb_2 {
+    display: none !important;
+}
+
