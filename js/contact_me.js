@@ -29,7 +29,15 @@ $(function () {
 
         function onSuccess() {
           // remove this to avoid redirect
-          window.location = window.location.pathname + "?message=Email+Successfully+Sent%21&isError=0";
+          //window.location = window.location.pathname + "?message=Email+Successfully+Sent%21&isError=0";
+
+          $(".modal-content-load").load("/Email/EmailSucesso.html", function(){ 
+            $("#portfolioModal").modal('show');  
+            $('.showhide').click(function() {
+              $("#portfolioModal").modal('hide');        
+            });    
+          });
+
         }
 
         function onError(error) {
@@ -77,3 +85,5 @@ $(function () {
 $('#name').focus(function () {
   $('#success').html('');
 });
+
+ 

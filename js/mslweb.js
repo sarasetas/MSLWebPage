@@ -1,5 +1,4 @@
-$(".portfolio-item").click(function(){
-    console.log($(this).data("item"));
+$(".portfolio-item").click(function(){ 
     $(".modal-content-load").load("/Portfolio/"+$(this).data("item")+".html", function(){
 
         // Uncomment when theres simulations
@@ -27,9 +26,10 @@ $(".portfolio-item").click(function(){
         });
 
     });
-
-    $("")
+ 
 });
+
+
 
 $('#portfolioModal').on('hidden.bs.modal', function (e) {
   if ($("#modal").hasClass('show-simulation')){
