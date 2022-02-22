@@ -24,7 +24,7 @@ $(function () {
         var form_id = "contactForm";
 
         var data = {
-          "access_token": "k4tpb3tnwb9b4i6kl4zxxd21"
+          "access_token": "wydl83hnyjdl8ncn3ubys7ty"
         };
 
         function onSuccess() {
